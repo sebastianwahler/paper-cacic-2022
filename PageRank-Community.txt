@@ -1,0 +1,5 @@
+Algoritmo que permite dar un valor numérico (o ranking) a cada nodo del grafo y mide de alguna forma su conectividad con el resto de la red.
+
+
+El PageRank es un valor numérico que representa la importancia que una página web tiene dentro de internet, de acuerdo al ranking que poseen sus palabras claves. Consiste en construir un grafo en base a las páginas que circulan en la web, las cuales estarán representadas por nodos, mientras que las aristas vendrán siendo los enlaces de entrada y salida de estas páginas.
+La presente investigación busca analizar qué tan eficiente puede ser el PageRank al considerarlo en la clasificación de , proponiendo una nueva forma para calcular el peso de las palabras, combinándolo con el factor de peso TF (term frequency).
