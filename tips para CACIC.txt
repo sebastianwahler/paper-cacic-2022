@@ -1,0 +1,16 @@
+Sección 6.
+- descripción de pagerank.
+- formula.
+- mostrar ejemplo.
+- código SQL (si hay espacio).
+- visualizaciones y discución de resultados.
+
+- detección de comunidades por color.
+
+- explicar algo de código.
+
+
+
+
+(empezar a analizar de poder obtener un pagerank de todo el universo de nodos).
+
