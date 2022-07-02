@@ -5,52 +5,46 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: splncs04.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliografia.bib
-Warning--I didn't find a database entry for "jour"
-Warning--I didn't find a database entry for "lncschap"
-Warning--I didn't find a database entry for "proceeding1"
-Warning--I didn't find a database entry for "book"
-Warning--I didn't find a database entry for "proceeding2"
-Warning--I didn't find a database entry for "url"
 Warning--empty journal in wasserman1994social
-You've used 35 entries,
+You've used 42 entries,
             2850 wiz_defined-function locations,
-            809 strings with 10378 characters,
-and the built_in function-call counts, 19786 in all, are:
-= -- 1671
-> -- 490
-< -- 52
-+ -- 209
-- -- 168
-* -- 1240
-:= -- 2421
-add.period$ -- 37
-call.type$ -- 35
-change.case$ -- 189
+            847 strings with 11403 characters,
+and the built_in function-call counts, 23837 in all, are:
+= -- 2014
+> -- 589
+< -- 64
++ -- 252
+- -- 202
+* -- 1501
+:= -- 2912
+add.period$ -- 44
+call.type$ -- 42
+change.case$ -- 228
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 1800
-empty$ -- 1812
-format.name$ -- 189
-if$ -- 4370
+cite$ -- 43
+duplicate$ -- 2173
+empty$ -- 2173
+format.name$ -- 228
+if$ -- 5257
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 344
-newline$ -- 111
-num.names$ -- 70
-pop$ -- 573
+int.to.str$ -- 42
+missing$ -- 416
+newline$ -- 132
+num.names$ -- 84
+pop$ -- 687
 preamble$ -- 1
-purify$ -- 152
+purify$ -- 183
 quote$ -- 0
-skip$ -- 629
+skip$ -- 752
 stack$ -- 0
-substring$ -- 1296
-swap$ -- 1100
-text.length$ -- 52
+substring$ -- 1566
+swap$ -- 1340
+text.length$ -- 64
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 134
+type$ -- 162
 warning$ -- 1
-while$ -- 184
-width$ -- 37
-write$ -- 348
-(There were 7 warnings)
+while$ -- 223
+width$ -- 44
+write$ -- 418
+(There was 1 warning)

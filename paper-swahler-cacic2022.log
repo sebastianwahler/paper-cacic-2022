@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  1 JUL 2022 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  2 JUL 2022 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -699,8 +699,8 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count327
 \l__pdf_internal_box=\box112
 ) (paper-swahler-cacic2022.aux
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
 )
 \openout1 = `paper-swahler-cacic2022.aux'.
 
@@ -847,46 +847,53 @@ Underfull \vbox (badness 3396) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
- [11 <./images//hermanos-curruman.png>] (pageRank.tex) (detecciones-comunitaria
-s.tex)
-(conclusion.tex) (trabajo-futuro.tex
+ [11 <./images//hermanos-curruman.png>] (pageRank.tex
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- [12]) (paper-swahler-cacic2022.bbl
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
+ [12]) (detecciones-comunitarias.tex)
+(conclusion.tex) (trabajo-futuro.tex
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [13]) (paper-swahler-cacic2022.bbl
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
 
-[13]
-LaTeX Info: Redefining \. on input line 151.
-LaTeX Info: Redefining \% on input line 151.
- [14])
+[14]
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
+ [15])
 LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
- [15] (paper-swahler-cacic2022.aux
+ [16] (paper-swahler-cacic2022.aux
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
 ) ) 
 Here is how much of TeX's memory you used:
- 15947 strings out of 478582
- 324615 string characters out of 2843400
- 596542 words of memory out of 3000000
- 33763 multiletter control sequences out of 15000+600000
- 476366 words of font info for 56 fonts, out of 8000000 for 9000
+ 15957 strings out of 478582
+ 324791 string characters out of 2843400
+ 596579 words of memory out of 3000000
+ 33772 multiletter control sequences out of 15000+600000
+ 476712 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,94p,1946b,467s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,10n,94p,2283b,467s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/swahler/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/swahler/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/swahler/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/swahle
-r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Use
-rs/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
-fb>
-Output written on paper-swahler-cacic2022.pdf (15 pages, 2519902 bytes).
+TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/swahler/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/swahler/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/sw
+ahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r6.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr9.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/swahler/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/swahler/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on paper-swahler-cacic2022.pdf (16 pages, 2579885 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
