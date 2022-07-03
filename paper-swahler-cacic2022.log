@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  3 JUL 2022 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  3 JUL 2022 19:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -755,103 +755,44 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Non-PDF special ignored!
 <special> header=pspicture.ps
 {C:/Users/swahler/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
-(Antecedentes.tex) (sna.tex
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
- [2]
-Underfull \vbox (badness 5105) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
- [3])
-(marco-trabajo.tex
-LaTeX Info: Redefining \. on input line 5.
-LaTeX Info: Redefining \% on input line 5.
- [4]
-Underfull \vbox (badness 1102) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
- [5]
-<images//grafo-ejemplo.png, id=27, 242.40562pt x 125.46875pt>
+(Antecedentes.tex) (sna.tex)
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+ [2] (marco-trabajo.tex
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+ [3]
+<images//grafo-ejemplo.png, id=21, 242.40562pt x 125.46875pt>
 File: images//grafo-ejemplo.png Graphic file (type png)
 <use images//grafo-ejemplo.png>
-Package pdftex.def Info: images//grafo-ejemplo.png  used on input line 20.
-(pdftex.def)             Requested size: 104.1381pt x 53.90263pt.
+Package pdftex.def Info: images//grafo-ejemplo.png  used on input line 15.
+(pdftex.def)             Requested size: 97.19415pt x 50.3072pt.
 )
-(descripcion-datos.tex (dataset-delitos.tex) (propiedades-red.tex
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
- [6 <./images//grafo-ejemplo.png>]
-<images//grafo-30000-completo.png, id=34, 703.87968pt x 637.63219pt>
-File: images//grafo-30000-completo.png Graphic file (type png)
-<use images//grafo-30000-completo.png>
-Package pdftex.def Info: images//grafo-30000-completo.png  used on input line 5
-.
-(pdftex.def)             Requested size: 138.84729pt x 125.77287pt.
-<images//grafo-10000-completo.png, id=35, 883.04906pt x 677.53125pt>
-File: images//grafo-10000-completo.png Graphic file (type png)
-<use images//grafo-10000-completo.png>
-Package pdftex.def Info: images//grafo-10000-completo.png  used on input line 2
-0.
-(pdftex.def)             Requested size: 72.26999pt x 55.4442pt.
-<images//grafo-1000-completo.png, id=36, 878.53218pt x 676.77844pt>
-File: images//grafo-1000-completo.png Graphic file (type png)
-<use images//grafo-1000-completo.png>
-Package pdftex.def Info: images//grafo-1000-completo.png  used on input line 27
-.
-(pdftex.def)             Requested size: 72.26999pt x 55.67174pt.
-<images//grafo-100-completo.png, id=37, 830.35219pt x 676.77844pt>
-File: images//grafo-100-completo.png Graphic file (type png)
-<use images//grafo-100-completo.png>
-Package pdftex.def Info: images//grafo-100-completo.png  used on input line 34.
-
-(pdftex.def)             Requested size: 72.26999pt x 58.90402pt.
-
-Overfull \hbox (8.86389pt too wide) in paragraph at lines 20--36
- [][][][] 
- []
-
-<images//grafo-10-completo.png, id=38, 925.95938pt x 677.53125pt>
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+ [4 <./images//grafo-ejemplo.png>] (descripcion-datos.tex (dataset-delitos.tex)
+ (propiedades-red.tex
+<images//grafo-10-completo.png, id=27, 925.95938pt x 677.53125pt>
 File: images//grafo-10-completo.png Graphic file (type png)
 <use images//grafo-10-completo.png>
-Package pdftex.def Info: images//grafo-10-completo.png  used on input line 43.
+Package pdftex.def Info: images//grafo-10-completo.png  used on input line 6.
 (pdftex.def)             Requested size: 173.56177pt x 126.99544pt.
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
-[7 <./images//grafo-30000-completo.png>]
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
- [8 <./images//grafo-10000-completo.png> <./images//grafo-1000-completo.png> <.
-/images//grafo-100-completo.png> <./images//grafo-10-completo.png>]) (visualiza
-cion.tex)) (identificacion-bandas.tex
-Overfull \hbox (0.2381pt too wide) in paragraph at lines 1--2
-[]\OT1/cmr/m/n/10 En es-ta sec-ci^^Son, des-cri-bi-mos nues-tro pro-ble-ma, al-
-gu-nos de los en-fo-ques pr^^Sacti-
- []
-
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-[9] (metodos-existentes.tex) (planteamiento-problema.tex
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
- [10]
-<images//hermanos-curruman.png, id=52, 1092.33093pt x 677.53125pt>
-File: images//hermanos-curruman.png Graphic file (type png)
-<use images//hermanos-curruman.png>
-Package pdftex.def Info: images//hermanos-curruman.png  used on input line 16.
-(pdftex.def)             Requested size: 260.34265pt x 161.4736pt.
-))
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
- [11 <./images//hermanos-curruman.png>] (pageRank.tex
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
- [12]
+)
+(visualizacion.tex))
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [5 <./images//grafo-10-completo.png>]
+(identificacion-bandas.tex (metodos-existentes.tex) (planteamiento-problema.tex
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+[6])) (pageRank.tex
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ [7]
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
- [13]
-<images//6nodos-pageRank-sinColor.png, id=69, 435.6275pt x 185.69376pt>
+ [8]
+<images//6nodos-pageRank-sinColor.png, id=48, 435.6275pt x 185.69376pt>
 File: images//6nodos-pageRank-sinColor.png Graphic file (type png)
 <use images//6nodos-pageRank-sinColor.png>
 Package pdftex.def Info: images//6nodos-pageRank-sinColor.png  used on input li
@@ -860,44 +801,42 @@ ne 80.
 ) (detecciones-comunitarias.tex
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
-
-[14 <./images//6nodos-pageRank-sinColor.png>]
-<images//grafo-10-completo-ConColor.png, id=74, 682.80093pt x 529.98pt>
+ [9 <./images//6nodos-pageRank-sinColor.png>]
+<images//grafo-10-completo-ConColor.png, id=53, 682.80093pt x 529.98pt>
 File: images//grafo-10-completo-ConColor.png Graphic file (type png)
 <use images//grafo-10-completo-ConColor.png>
 Package pdftex.def Info: images//grafo-10-completo-ConColor.png  used on input 
 line 12.
 (pdftex.def)             Requested size: 260.34265pt x 202.07378pt.
-) (conclusion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+) (conclusion.tex) (trabajo-futuro.tex
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
- [15 <./images//grafo-10-completo-ConColor.png>]) (trabajo-futuro.tex
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
- [16])
+ [10])
 (paper-swahler-cacic2022.bbl
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
- [17]
-LaTeX Info: Redefining \. on input line 163.
-LaTeX Info: Redefining \% on input line 163.
- [18])
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [11 <./images//grafo-10-completo-ConColor.png>]
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
+
+[12])
 LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
- [19] (paper-swahler-cacic2022.aux
+ [13]
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+ [14] (paper-swahler-cacic2022.aux
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
 ) ) 
 Here is how much of TeX's memory you used:
- 15978 strings out of 478582
- 325545 string characters out of 2843400
- 593606 words of memory out of 3000000
- 33790 multiletter control sequences out of 15000+600000
+ 15933 strings out of 478582
+ 324078 string characters out of 2843400
+ 596570 words of memory out of 3000000
+ 33750 multiletter control sequences out of 15000+600000
  476880 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,94p,2283b,467s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,8n,94p,2282b,469s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/
@@ -914,9 +853,9 @@ type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/swahler/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/swahler/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/swahler/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on paper-swahler-cacic2022.pdf (19 pages, 2871582 bytes).
+Output written on paper-swahler-cacic2022.pdf (14 pages, 782863 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

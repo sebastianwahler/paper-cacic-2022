@@ -14,3 +14,16 @@ Sección 6.
 
 (empezar a analizar de poder obtener un pagerank de todo el universo de nodos).
 
+williams jaque
+curruman matias
+lencina ariel
+espiasse tamara
+sequeira jessi
+curruman sergio
+
+- párrafo "Según Sage" en SNA
+- tabla de totales
+- grafo de 100000 nodos
+- Centralidad de Grado
+- Transitividad
+- Trabajos futuros (se redujo lo relativo a centralidades y se quitó NeoVis.JS)
