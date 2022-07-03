@@ -13,5 +13,74 @@ originalmente utilizado por Google que asigna a cada página web de un conjunto 
 \end{equation}
 
 \subsubsection{Aplicación de PageRank para bandas delictivas}
-Nuestro dataset descrito anteriormente se obtiene a partir de consultas SQL a la Base de Datos de Coirón. Para hacer uso del algoritmo de PageRank se decidió incorporarlo dentro de esas consultas SQL de modo de obtener un resultado que pueda ser utilizado para la visualización.
+Nuestro dataset descrito anteriormente se obtiene a partir de consultas SQL a la Base de Datos de Coirón. Para hacer uso del algoritmo de PageRank se decidió incorporarlo dentro de esas consultas SQL de modo de obtener un resultado que pueda ser utilizado para la visualización. Dentro de la consulta original se generaba una tabla para los nodos y otra tabla para las relaciones, de esta manera el software realizado para la visualización obtiene dichos datasets y renderiza el grafo.
+Para incorporar el cálculo de PageRank, inicialmente se adecuaron ambas tablas para la utilización de la fórmula, y se necesitó de ciertas tablas temporales para el cálculo. Por un lado se computaron el grado de salida de cada nodo, es decir el número de enlaces que lo conectan con otros nodos.
+
+\begin{verbatim}
+INSERT INTO #OutDegree
+	SELECT #Node.id, COUNT(#Edge.src)
+	FROM #Node 
+		LEFT OUTER JOIN #Edge ON #Node.id = #Edge.src
+	GROUP BY #Node.id		
+\end{verbatim}
+
+Luego se declara el \textit{damping factor}, en nuestro caso $0.85$, el conteo total de nodos, se calcula el pageRank inicial de cada nodo, para después comenzar la iteración buscando cumplir con la sumatoria de la fórmula.
+
+\begin{verbatim}
+DECLARE @dampingFactor float = 0.85
+DECLARE @Node_Num int
+SELECT @Node_Num = COUNT(*) FROM #Node
+INSERT INTO #PageRank
+	SELECT #Node.id, rank = ((1 - @dampingFactor) / @Node_Num)
+	FROM #Node 
+		INNER JOIN #OutDegree ON #Node.id = #OutDegree.id
+DECLARE @Iteration int = 0
+WHILE @Iteration < 50
+BEGIN
+	--Iteration Style
+	SET @Iteration = @Iteration + 1
+	INSERT INTO #TmpRank
+		SELECT #Edge.dst, rank = ((1 - @dampingFactor) / @Node_Num) 
+		+ (@dampingFactor * SUM(#PageRank.rank / #OutDegree.degree))
+		FROM #PageRank 
+			INNER JOIN #Edge ON #PageRank.id = #Edge.src
+			INNER JOIN #OutDegree ON #PageRank.id = #OutDegree.id
+		GROUP BY #Edge.dst
+END
+\end{verbatim}
+
+Una vez finalizado el desarrollo de la fórmula, se procedió a realizar pruebas que corroboren el buen funcionamiento del código. Se realizaron ejemplos para pocos nodos con pocas relaciones, de manera tal que sea sencilla la verificación. Se muestran a continuación el Cuadro \ref{tab:TablaPageRank6Nodos} con los resultados de PageRank para 6 nodos, y la Figura \ref{fig:6nodos-pageRank-sinColor} que refleja la visualización del mismo algoritmo. En cada nodo se muestra su posición de PageRank, y entre paréntesis el Id de cada nodo. Como se puede observar el nodo central por el PageRank calculado es el referido al ID 145053, cuyas relaciones con 3 nodos pesan sobre las relaciones que poseen el resto de los nodos visualizados en el grafo.
+
+\begin{table}
+\centering
+\label{tab:TablaPageRank6Nodos}
+\begin{tabular}{|l|r|}
+	\hline
+	\textbf{IdNodo} &  \textbf{PageRank} \\
+	\hline
+	145053 &  0,286845042094944 \\
+	\hline
+	145262 &  0,199512347112651 \\
+	\hline
+	116587 &  0,1910604814502 \\
+	\hline
+	132310 &  0,109790233522352 \\
+	\hline
+	123109 &  0,106270247927848 \\
+	\hline
+	129137 &  0,106270247927848 \\
+	\hline
+\end{tabular}
+\vspace{10pt}
+\caption{Valores de PageRank por nodo luego de la ejecución del algoritmo}
+\end{table}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\linewidth]{6nodos-pageRank-sinColor.png}
+	\caption{Resultado de ejecución de PageRank para 6 nodos.} 
+	\label{fig:6nodos-pageRank-sinColor}
+\end{figure}
+
+
 
