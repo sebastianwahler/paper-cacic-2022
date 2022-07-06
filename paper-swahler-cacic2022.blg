@@ -5,46 +5,44 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: splncs04.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliografia.bib
-Warning--empty journal in wasserman1994social
-You've used 42 entries,
+You've used 15 entries,
             2850 wiz_defined-function locations,
-            847 strings with 11403 characters,
-and the built_in function-call counts, 23837 in all, are:
-= -- 2014
-> -- 589
-< -- 64
-+ -- 252
-- -- 202
-* -- 1501
-:= -- 2912
-add.period$ -- 44
-call.type$ -- 42
-change.case$ -- 228
+            692 strings with 7070 characters,
+and the built_in function-call counts, 8653 in all, are:
+= -- 714
+> -- 255
+< -- 21
++ -- 108
+- -- 90
+* -- 548
+:= -- 1076
+add.period$ -- 16
+call.type$ -- 15
+change.case$ -- 92
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 2173
-empty$ -- 2173
-format.name$ -- 228
-if$ -- 5257
+cite$ -- 15
+duplicate$ -- 766
+empty$ -- 762
+format.name$ -- 99
+if$ -- 1884
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 416
-newline$ -- 132
-num.names$ -- 84
-pop$ -- 687
+int.to.str$ -- 15
+missing$ -- 153
+newline$ -- 51
+num.names$ -- 30
+pop$ -- 268
 preamble$ -- 1
-purify$ -- 183
+purify$ -- 74
 quote$ -- 0
-skip$ -- 752
+skip$ -- 263
 stack$ -- 0
-substring$ -- 1566
-swap$ -- 1340
-text.length$ -- 64
+substring$ -- 535
+swap$ -- 477
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
-warning$ -- 1
-while$ -- 223
-width$ -- 44
-write$ -- 418
-(There was 1 warning)
+type$ -- 60
+warning$ -- 0
+while$ -- 76
+width$ -- 17
+write$ -- 151

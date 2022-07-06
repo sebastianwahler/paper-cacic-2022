@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  3 JUL 2022 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  6 JUL 2022 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -699,8 +699,8 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count327
 \l__pdf_internal_box=\box112
 ) (paper-swahler-cacic2022.aux
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
 )
 \openout1 = `paper-swahler-cacic2022.aux'.
 
@@ -749,94 +749,89 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
 (C:\Users\swahler\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(Abstract.tex) (Introduccion.tex [1
+(Abstract.tex) (Introduccion.tex) [1
 
 
 Non-PDF special ignored!
 <special> header=pspicture.ps
-{C:/Users/swahler/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
-(Antecedentes.tex) (sna.tex)
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
- [2] (marco-trabajo.tex
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
- [3]
-<images//grafo-ejemplo.png, id=21, 242.40562pt x 125.46875pt>
+{C:/Users/swahler/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+(marco-trabajo.tex
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+ [2]
+<images//grafo-ejemplo.png, id=18, 242.40562pt x 125.46875pt>
 File: images//grafo-ejemplo.png Graphic file (type png)
 <use images//grafo-ejemplo.png>
-Package pdftex.def Info: images//grafo-ejemplo.png  used on input line 15.
-(pdftex.def)             Requested size: 97.19415pt x 50.3072pt.
+Package pdftex.def Info: images//grafo-ejemplo.png  used on input line 20.
+(pdftex.def)             Requested size: 86.78088pt x 44.91791pt.
 )
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
- [4 <./images//grafo-ejemplo.png>] (descripcion-datos.tex (dataset-delitos.tex)
- (propiedades-red.tex
-<images//grafo-10-completo.png, id=27, 925.95938pt x 677.53125pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+ [3]
+(descripcion-datos.tex (dataset-delitos.tex) (propiedades-red.tex
+<images//grafo-10-completo.png, id=23, 925.95938pt x 677.53125pt>
 File: images//grafo-10-completo.png Graphic file (type png)
 <use images//grafo-10-completo.png>
 Package pdftex.def Info: images//grafo-10-completo.png  used on input line 6.
 (pdftex.def)             Requested size: 173.56177pt x 126.99544pt.
 )
 (visualizacion.tex))
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
- [5 <./images//grafo-10-completo.png>]
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+ [4 <./images//grafo-ejemplo.png>]
 (identificacion-bandas.tex (metodos-existentes.tex) (planteamiento-problema.tex
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-[6])) (pageRank.tex
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
- [7]
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
- [8]
-<images//6nodos-pageRank-sinColor.png, id=48, 435.6275pt x 185.69376pt>
+))
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
+ [5 <./images//grafo-10-completo.png>] (pageRank.tex
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ [6]
+<images//6nodos-pageRank-sinColor.png, id=38, 435.6275pt x 185.69376pt>
 File: images//6nodos-pageRank-sinColor.png Graphic file (type png)
 <use images//6nodos-pageRank-sinColor.png>
 Package pdftex.def Info: images//6nodos-pageRank-sinColor.png  used on input li
-ne 80.
-(pdftex.def)             Requested size: 260.34265pt x 110.97508pt.
-) (detecciones-comunitarias.tex
+ne 79.
+(pdftex.def)             Requested size: 173.56177pt x 73.9815pt.
+)
+(detecciones-comunitarias.tex
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
- [9 <./images//6nodos-pageRank-sinColor.png>]
-<images//grafo-10-completo-ConColor.png, id=53, 682.80093pt x 529.98pt>
+ [7]
+<images//grafo-10-completo-ConColor.png, id=46, 682.80093pt x 529.98pt>
 File: images//grafo-10-completo-ConColor.png Graphic file (type png)
 <use images//grafo-10-completo-ConColor.png>
 Package pdftex.def Info: images//grafo-10-completo-ConColor.png  used on input 
-line 12.
-(pdftex.def)             Requested size: 260.34265pt x 202.07378pt.
-) (conclusion.tex) (trabajo-futuro.tex
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
- [10])
-(paper-swahler-cacic2022.bbl
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [11 <./images//grafo-10-completo-ConColor.png>]
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
+line 11.
+(pdftex.def)             Requested size: 173.56177pt x 134.71045pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[12])
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
- [13]
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
- [14] (paper-swahler-cacic2022.aux
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
+ [8 <./images//6nodos-pageRank-sinColor.png>] (conclusion.tex) (trabajo-futuro.
+tex
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
+
+[9 <./images//grafo-10-completo-ConColor.png>]) (paper-swahler-cacic2022.bbl)
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+
+[10] (paper-swahler-cacic2022.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
 ) ) 
 Here is how much of TeX's memory you used:
- 15933 strings out of 478582
- 324078 string characters out of 2843400
- 596570 words of memory out of 3000000
- 33750 multiletter control sequences out of 15000+600000
+ 15894 strings out of 478582
+ 323161 string characters out of 2843400
+ 598434 words of memory out of 3000000
+ 33717 multiletter control sequences out of 15000+600000
  476880 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,94p,2282b,469s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,9n,94p,2282b,363s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/
@@ -851,11 +846,11 @@ nts/cm/cmr7.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmr9.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/swahler/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/swahler/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/swahler/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on paper-swahler-cacic2022.pdf (14 pages, 782863 bytes).
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/swahler/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on paper-swahler-cacic2022.pdf (10 pages, 764949 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
+ 115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

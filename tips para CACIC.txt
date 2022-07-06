@@ -22,6 +22,7 @@ sequeira jessi
 curruman sergio
 
 - párrafo "Según Sage" en SNA
+- Trabajos importantes de Krebs, narcotrafico, Malm, cibercrimen
 - tabla de totales
 - grafo de 100000 nodos
 - Centralidad de Grado
