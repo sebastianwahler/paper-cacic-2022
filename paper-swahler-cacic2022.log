@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  6 JUL 2022 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  7 JUL 2022 07:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -827,7 +827,7 @@ LaTeX Info: Redefining \% on input line 9.
 Here is how much of TeX's memory you used:
  15894 strings out of 478582
  323161 string characters out of 2843400
- 598434 words of memory out of 3000000
+ 598433 words of memory out of 3000000
  33717 multiletter control sequences out of 15000+600000
  476880 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -848,7 +848,7 @@ type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/swahler/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/swahler/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/swahler/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on paper-swahler-cacic2022.pdf (10 pages, 764949 bytes).
+Output written on paper-swahler-cacic2022.pdf (10 pages, 765060 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
