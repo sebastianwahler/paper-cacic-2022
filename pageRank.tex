@@ -1,6 +1,5 @@
-Como parte simplificada de la estructura de una comunidad de nodos en una red social, cada uno representa a un individuo y la red tiene una segmentación multitudinaria~\cite{ma2014exploring}. Algunas personas son centrales en la comunidad, algunas están al margen, establecen menos relaciones con otros y, por lo tanto, tienen una influencia menor. En esta sección, presentamos un nuevo enfoque de descubrimiento comunitario basado en el algoritmo PageRank para encontrar a estos delincuentes "importantes" ó con "mayor influencia" en nuestro grafo, con el fin de analizar supuestas bandas delictivas.
-
-Un grafo es un par $G = (N, A, g)$ donde $N$ es un conjunto finito no vacío de elementos denominados \textit{nodos} (vértices), $A$ es un conjunto de arcos y $g$ es una función que asocia a cada arco $a$ perteneciente a $A$ con un par no ordenado $(x, y)$, siendo $x$ e $y$ nodos pertenecientes a $N$. Se dice que $a$ es un arco con vértices extremos $x$ e $y$~\cite{dubinsky1984mathematical}.
+Como parte simplificada de la estructura de una comunidad de nodos en una red social, cada uno representa a un individuo y la red tiene una segmentación multitudinaria~\cite{ma2014exploring}. Algunas personas son centrales en la comunidad, algunas están al margen, establecen menos relaciones con otros y, por lo tanto, tienen una influencia menor. En esta sección, presentamos un nuevo enfoque de descubrimiento comunitario basado en el algoritmo PageRank para encontrar a estos delincuentes ``importantes" ó con ``mayor influencia" en nuestro grafo, con el fin de analizar supuestas bandas delictivas.
+Recordemos que un grafo es un par $G = (N, A, g)$ donde $N$ es un conjunto finito no vacío de elementos denominados \textit{nodos} (vértices), $A$ es un conjunto de arcos y $g$ es una función que asocia a cada arco $a$ perteneciente a $A$ con un par no ordenado $(x, y)$, siendo $x$ e $y$ nodos pertenecientes a $N$. Se dice que $a$ es un arco con vértices extremos $x$ e $y$~\cite{dubinsky1984mathematical}.
 \vspace{-10pt}
 \subsubsection{PageRank}
 (PR) es un método que fue implementado a través de un algoritmo
@@ -12,9 +11,11 @@ originalmente utilizado por Google que asigna a cada página web de un conjunto 
 \end{equation}
 \vspace{-20pt}
 \subsubsection{Aplicación de PageRank para bandas delictivas}
-Nuestro dataset descrito anteriormente se obtiene a partir de consultas SQL a la Base de Datos de Coirón. Para hacer uso del algoritmo de PageRank se decidió incorporarlo dentro de esas consultas SQL de modo de obtener un resultado que pueda ser utilizado para la visualización. Dentro de la consulta original se generaba una tabla para los nodos y otra tabla para las relaciones, de esta manera el software realizado para la visualización obtiene dichos datasets y renderiza el grafo.
+Nuestro dataset descrito anteriormente se obtiene a partir de consultas SQL a la Base de Datos de \texttt{Coirón}. Para hacer uso del algoritmo de PageRank se decidió incorporarlo dentro de esas consultas SQL de modo de obtener un resultado que pueda ser utilizado para la visualización. Dentro de la consulta original se generaba una tabla para los nodos y otra tabla para las relaciones, de esta manera el software realizado para la visualización obtiene dichos datasets y renderiza el grafo.
 Para incorporar el cálculo de PageRank, inicialmente se adecuaron ambas tablas para la utilización de la fórmula, y se necesitó de ciertas tablas temporales para el cálculo. Por un lado se computó el grado de salida de cada nodo \textit{(Out Degree)}, es decir el número de enlaces que lo conectan con otros nodos.
-Luego se declara el \textit{damping factor}, en nuestro caso $0.85$, el conteo total de nodos, y se calcula el \textit{PageRank inicial} de cada nodo, para después comenzar la iteración buscando cumplir con la sumatoria de la fórmula.
+Luego se declara el \textit{damping factor}, en nuestro caso $0.85$, luego el conteo total de nodos, y se calcula el \textit{PageRank inicial} de cada nodo, para después comenzar la iteración buscando cumplir con la sumatoria de la fórmula.
+El \textit{damping factor} corresponde a un valor probabilístico que, aplicado al escenario de paginas web, pretende capturar la posibilidad de que un usuario continúe haciendo click en los links de una página en una sesión de navegación continua. 
+Aquí este factor tienen un significado diferente, reintrepretado como el factor en el que se diluye la importancia de un individuo entre sus pares a través de una cadena de arcos. Actualmente estamos estudiando un valor apropiado en función de los datos existentes, puesto que el damping factor es esencialmente un valor empírico. En este trabajo optamos por usar el valor propio de la propuesta original del PageRank.
 
 \begin{multicols}{2}
 \tiny{
@@ -49,6 +50,7 @@ END
 \end{multicols}
 
 Una vez finalizado el desarrollo de la fórmula, se procedió a realizar pruebas que corroboren el buen funcionamiento del código. Se realizaron ejemplos para pocos nodos con pocas relaciones, de manera tal que sea sencilla la verificación. Se muestran a continuación el Cuadro \ref{tab:TablaPageRank6Nodos} con los resultados de PageRank para 6 nodos, y la Figura \ref{fig:6nodos-pageRank-sinColor} que refleja la visualización de la misma ejecución. En cada nodo se muestra su posición de PageRank, y entre paréntesis el identificador de cada nodo. Como se puede observar el nodo central por el PageRank calculado es el referido al ID \textit{145053}, cuyas relaciones con 3 nodos pesan sobre las relaciones que poseen el resto de los nodos visualizados en el grafo.
+Es interesante ver que éste individuo no es el que posee necesariamente la mayor cantidad de causas penales, pero es el más importante entre sus pares \textit{de su propia red social} de contactos con antecedentes relacionados.
 %\vspace{-10pt}
 \begin{table}
 \centering
@@ -83,3 +85,9 @@ Una vez finalizado el desarrollo de la fórmula, se procedió a realizar pruebas
 	\label{fig:6nodos-pageRank-sinColor}
 \end{figure}
 %\vspace{-30pt}
+
+La visualización del grafo que combina información penal con la relevancia basada en la topología del grupo de pertenencia provee mayor asistencia a una identificación primaria de individuos de importancia.
+Esto es compatible con el patrón de comportamiento que indica que, en varias organizaciones delictivas, los líderes no siempre evidencian la mayor visibilización judicial, contrario a lo que ocurre en los estratos inferiores que están mas expuestos al delito cotidiano. Por ejemplo, en las estructuras de mafia siciliana el \textit{soldato} es quien realiza muchos de los actos delictivos simples de la Cosa Nostra, mientras que sus lideres los \textit{capo-decina} y \textit{capi-mandamento} se reservan mayor discreción. 
+
+
+
