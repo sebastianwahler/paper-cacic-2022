@@ -2,47 +2,47 @@ This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: paper-swahler-cacic2022.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
-The style file: splncs04.bst
+The style file: splncs03.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliografia.bib
-You've used 15 entries,
-            2850 wiz_defined-function locations,
-            692 strings with 7070 characters,
-and the built_in function-call counts, 8653 in all, are:
-= -- 714
-> -- 255
+You've used 14 entries,
+            2785 wiz_defined-function locations,
+            677 strings with 6748 characters,
+and the built_in function-call counts, 8114 in all, are:
+= -- 691
+> -- 233
 < -- 21
-+ -- 108
-- -- 90
-* -- 548
-:= -- 1076
-add.period$ -- 16
-call.type$ -- 15
-change.case$ -- 92
++ -- 99
+- -- 82
+* -- 508
+:= -- 1024
+add.period$ -- 15
+call.type$ -- 14
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 766
-empty$ -- 762
-format.name$ -- 99
-if$ -- 1884
+cite$ -- 14
+duplicate$ -- 711
+empty$ -- 687
+format.name$ -- 91
+if$ -- 1765
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 153
-newline$ -- 51
-num.names$ -- 30
-pop$ -- 268
+int.to.str$ -- 14
+missing$ -- 145
+newline$ -- 47
+num.names$ -- 28
+pop$ -- 229
 preamble$ -- 1
-purify$ -- 74
+purify$ -- 67
 quote$ -- 0
-skip$ -- 263
+skip$ -- 254
 stack$ -- 0
-substring$ -- 535
-swap$ -- 477
+substring$ -- 530
+swap$ -- 451
 text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 56
 warning$ -- 0
-while$ -- 76
-width$ -- 17
-write$ -- 151
+while$ -- 74
+width$ -- 16
+write$ -- 142

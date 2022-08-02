@@ -1,12 +1,10 @@
 \begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
-\providecommand{\doi}[1]{https://doi.org/#1}
 
 \bibitem{brin1998anatomy}
 Brin, S., Page, L.: The anatomy of a large-scale hypertextual web search
-  engine. Computer networks and ISDN systems  \textbf{30}(1-7),  107--117
-  (1998)
+  engine. Computer networks and ISDN systems  30(1-7),  107--117 (1998)
 
 \bibitem{chen2005visualization}
 Chen, H., Atabakhsh, H., Tseng, C., Marshall, B., Kaza, S., Eggers, S., Gowda,
@@ -16,16 +14,16 @@ Chen, H., Atabakhsh, H., Tseng, C., Marshall, B., Kaza, S., Eggers, S., Gowda,
 
 \bibitem{dubinsky1984mathematical}
 Dubinsky, E.: Mathematical structures for computer science. by judith l.
-  gersting. The American Mathematical Monthly  \textbf{91}(6),  379--381 (1984)
+  gersting. The American Mathematical Monthly  91(6),  379--381 (1984)
 
 \bibitem{feng2019big}
 Feng, M., Zheng, J., Ren, J., Hussain, A., Li, X., Xi, Y., Liu, Q.: Big data
   analytics and mining for effective visualization and trends forecasting of
-  crime data. IEEE Access  \textbf{7},  106111--106123 (2019)
+  crime data. IEEE Access  7,  106111--106123 (2019)
 
 \bibitem{finckenauer2005problems}
 Finckenauer, J.O.: Problems of definition: what is organized crime? Trends in
-  organized crime  \textbf{8}(3),  63--83 (2005),
+  organized crime  8(3),  63--83 (2005),
   \url{https://doi.org/10.1007/s12117-005-1038-4}
 
 \bibitem{MPFChubutPaginaWeb}
@@ -33,40 +31,34 @@ Fiscal, M.P.: P{\'a}gina web. \url{https://www.mpfchubut.gov.ar/}
 
 \bibitem{franceschet2011pagerank}
 Franceschet, M.: Pagerank: Standing on the shoulders of giants. Communications
-  of the ACM  \textbf{54}(6),  92--101 (2011)
+  of the ACM  54(6),  92--101 (2011)
 
 \bibitem{gobel1974random}
 G{\"o}bel, F., Jagers, A.: Random walks on graphs. Stochastic processes and
-  their applications  \textbf{2}(4),  311--336 (1974)
+  their applications  2(4),  311--336 (1974)
 
 \bibitem{lin2010data}
 Lin, J., Dyer, C.: Data-intensive text processing with mapreduce. Synthesis
-  Lectures on Human Language Technologies  \textbf{3}(1),  1--177 (2010)
+  Lectures on Human Language Technologies  3(1),  1--177 (2010)
 
 \bibitem{ma2014exploring}
-Ma, X., Wang, H., Li, H., Liu, J., Jiang, H.: Exploring sharing patterns for
-  video recommendation on youtube-like social media. Multimedia Systems
-  \textbf{20}(6),  675--691 (2014)
+Ma, X., et~al.: Exploring sharing patterns for video recommendation on
+  youtube-like social media. Multimedia Systems  20(6),  675--691 (2014)
 
 \bibitem{mathew2021criminal}
 Mathew, A., Mary~Jose, A., Sabu, C., Raj, A., et~al.: Criminal networks mining
-  and visualization for crime investigation. Caniya and P, Mufeed and Raj,
-  Asha, Criminal Networks Mining and Visualization for Crime Investigation
-  (July 8, 2021)  (2021)
+  and visualization for crime investigation. ICICNIS  (2021)
 
 \bibitem{newman2005measure}
 Newman, M.E.: A measure of betweenness centrality based on random walks. Social
-  networks  \textbf{27}(1),  39--54 (2005)
+  networks  27(1),  39--54 (2005)
 
 \bibitem{page1999pagerank}
 Page, L., Brin, S., Motwani, R., Winograd, T.: The pagerank citation ranking:
   Bringing order to the web. Tech. rep., Stanford InfoLab (1999)
 
-\bibitem{visjsPaginaWeb}
-visjs: P{\'a}gina web. \url{https://visjs.org/}
-
 \bibitem{xu2005criminal}
 Xu, J., Chen, H.: Criminal network analysis and visualization. Communications
-  of the ACM  \textbf{48}(6),  100--107 (2005)
+  of the ACM  48(6),  100--107 (2005)
 
 \end{thebibliography}
