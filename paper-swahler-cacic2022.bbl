@@ -37,6 +37,10 @@ Franceschet, M.: Pagerank: Standing on the shoulders of giants. Communications
 G{\"o}bel, F., Jagers, A.: Random walks on graphs. Stochastic processes and
   their applications  2(4),  311--336 (1974)
 
+\bibitem{noticiaLCDdiario}
+Jornada, D.: Caso de estudio real.
+  \url{https://www.diariojornada.com.ar/57375/policiales/Como_era_el_trabajo_de_la_banda_de_los_LCD_que_fue_desbaratada_esta_semana_en_Trelew}
+
 \bibitem{lin2010data}
 Lin, J., Dyer, C.: Data-intensive text processing with mapreduce. Synthesis
   Lectures on Human Language Technologies  3(1),  1--177 (2010)

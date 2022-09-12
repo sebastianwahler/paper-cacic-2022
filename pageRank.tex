@@ -50,46 +50,58 @@ END
 }
 \end{multicols}
 
-Una vez finalizado el desarrollo de la fórmula, se procedió a realizar pruebas que corroboren el buen funcionamiento del código. Se realizaron ejemplos para pocos nodos con pocas relaciones, de manera tal que sea sencilla la verificación. Se muestran a continuación el Cuadro \ref{tab:TablaPageRank6Nodos} con los resultados de PageRank para 6 nodos, y la Figura \ref{fig:6nodos-pageRank-sinColor} que refleja la visualización de la misma ejecución. En cada nodo se muestra su posición de PageRank, y entre paréntesis el identificador de cada nodo. Como se puede observar el nodo central por el PageRank calculado es el referido al ID \textit{145053}, cuyas relaciones con 3 nodos pesan sobre las relaciones que poseen el resto de los nodos visualizados en el grafo.
-Es interesante ver que éste individuo no es el que posee necesariamente la mayor cantidad de casos penales, pero es el más importante entre sus pares \textit{de su propia red social} de contactos con antecedentes relacionados.
+Una vez finalizado el desarrollo de la fórmula, se procedió a realizar pruebas que corroboren el buen funcionamiento del código. Se realizaron ejemplos para pocos nodos con pocas relaciones, de manera tal que sea sencilla la verificación. Se muestra a continuación la Figura \ref{fig:6nodos-pageRank-sinColor-masTabla} que refleja la visualización de la ejecución de PageRank para 6 nodos. En cada nodo se muestra su posición de PageRank, y entre paréntesis el identificador de cada nodo. Como se puede observar el nodo central por el PageRank calculado es el referido al ID \textit{145053}, cuyas relaciones con 3 nodos pesan sobre las relaciones que poseen el resto de los nodos visualizados en el grafo.
+Es interesante ver que éste individuo no es el que posee necesariamente la mayor cantidad de casos penales, pero es el más importante entre sus pares \textit{de su propia red social} de contactos relacionados.
 %\vspace{-10pt}
-\begin{table}
-\centering
-\resizebox{120pt}{!}{
-\label{tab:TablaPageRank6Nodos}
-\begin{tabular}{|l|r|}
-	\hline
-	\textbf{IdNodo} &  \textbf{PageRank} \\
-	\hline
-	145053 &  0,286845042094944 \\
-	\hline
-	145262 &  0,199512347112651 \\
-	\hline
-	116587 &  0,1910604814502 \\
-	\hline
-	132310 &  0,109790233522352 \\
-	\hline
-	123109 &  0,106270247927848 \\
-	\hline
-	129137 &  0,106270247927848 \\
-	\hline
-\end{tabular}
-}
-\vspace{5pt}
-\caption{Valores de PageRank por nodo luego de la ejecución del algoritmo}
-\end{table}
 
+
+%\begin{table}
+%\centering
+%\resizebox{120pt}{!}{
+%\label{tab:TablaPageRank6Nodos}
+%\begin{tabular}{|l|r|}
+%	\hline
+%	\textbf{IdNodo} &  \textbf{PageRank} \\
+%	\hline
+%	145053 &  0,286845042094944 \\
+%	\hline
+%	145262 &  0,199512347112651 \\
+%	\hline
+%	116587 &  0,1910604814502 \\
+%	\hline
+%	132310 &  0,109790233522352 \\
+%	\hline
+%	123109 &  0,106270247927848 \\
+%	\hline
+%	129137 &  0,106270247927848 \\
+%	\hline
+%\end{tabular}
+%}
+%\vspace{5pt}
+%\caption{Valores de PageRank por nodo luego de la ejecución del algoritmo}
+%\end{table}
+	
 %\vspace{-20pt}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.50\linewidth]{6nodos-pageRank-sinColor.png}
+	\includegraphics[width=0.50\linewidth]{6nodos-pageRank-sinColor-masTabla.png}
 	\caption{Resultado de ejecución de PageRank para 6 nodos.} 
-	\label{fig:6nodos-pageRank-sinColor}
+	\label{fig:6nodos-pageRank-sinColor-masTabla}
 \end{figure}
 %\vspace{-10pt}
 
-La visualización del grafo que combina información penal con la relevancia basada en la topología del grupo de pertenencia provee mayor asistencia a una identificación primaria de individuos de importancia.
-Esto es compatible con el patrón de comportamiento que indica que, en varias organizaciones delictivas, los líderes no siempre evidencian la mayor visibilización judicial, contrario a lo que ocurre en los estratos inferiores que están mas expuestos al delito cotidiano. Por ejemplo, en las estructuras de mafia siciliana el \textit{soldato} es quien realiza muchos de los actos delictivos simples de la Cosa Nostra, mientras que sus lideres los \textit{capo-decina} y \textit{capo-mandamento} se reservan mayor discreción. 
+Se ejecutó el algoritmo también para casos de estudio real resueltos en el MPF, donde las bandas y sus líderes han sido identificados, y de esta manera validar la relevancia de la implementación. Como ejemplo a continuación se muestra la Figura \ref{fig:BandaLCDs1}, sobre el caso real de robo de LCDs mencionado en el capítulo anterior. Pudo validarse que todos los integrantes de la banda se encuentran en el centro del subgrafo, altamente relacionados con los nodos de colores, que reflejan a los de más valor de PageRank.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.40\linewidth]{BandaLCDs1.png}
+	\caption{Resultado de ejecución de PageRank para el caso real de robo de LCDs.} 
+	\label{fig:BandaLCDs1}
+\end{figure}
+
+
+%La visualización del grafo que combina información penal con la relevancia basada en la topología del grupo de pertenencia provee mayor asistencia a una identificación primaria de individuos de importancia.
+%Esto es compatible con el patrón de comportamiento que indica que, en varias organizaciones delictivas, los líderes no siempre evidencian la mayor visibilización judicial, contrario a lo que ocurre en los estratos inferiores que están mas expuestos al delito cotidiano. Por ejemplo, en las estructuras de mafia siciliana el \textit{soldato} es quien realiza muchos de los actos delictivos simples de la Cosa Nostra, mientras que sus lideres los \textit{capo-decina} y \textit{capo-mandamento} se reservan mayor discreción. 
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  2 AUG 2022 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.21)  12 SEP 2022 10:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,16 +787,23 @@ LaTeX Info: Redefining \% on input line 61.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
  [6]
-<images//6nodos-pageRank-sinColor.png, id=42, 435.6275pt x 185.69376pt>
-File: images//6nodos-pageRank-sinColor.png Graphic file (type png)
-<use images//6nodos-pageRank-sinColor.png>
-Package pdftex.def Info: images//6nodos-pageRank-sinColor.png  used on input li
-ne 85.
-(pdftex.def)             Requested size: 173.56177pt x 73.9815pt.
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
- [7]) (detecciones-comunitarias.tex
-<images//grafo-10-completo-ConColor.png, id=48, 682.80093pt x 529.98pt>
+<images//6nodos-pageRank-sinColor-masTabla.png, id=42, 1111.90407pt x 312.41719
+pt>
+File: images//6nodos-pageRank-sinColor-masTabla.png Graphic file (type png)
+<use images//6nodos-pageRank-sinColor-masTabla.png>
+Package pdftex.def Info: images//6nodos-pageRank-sinColor-masTabla.png  used on
+ input line 87.
+(pdftex.def)             Requested size: 173.56177pt x 48.76262pt.
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+ [7]
+<images//BandaLCDs1.png, id=48, 711.4078pt x 516.42938pt>
+File: images//BandaLCDs1.png Graphic file (type png)
+<use images//BandaLCDs1.png>
+Package pdftex.def Info: images//BandaLCDs1.png  used on input line 97.
+(pdftex.def)             Requested size: 138.84729pt x 100.79395pt.
+) (detecciones-comunitarias.tex
+<images//grafo-10-completo-ConColor.png, id=49, 682.80093pt x 529.98pt>
 File: images//grafo-10-completo-ConColor.png Graphic file (type png)
 <use images//grafo-10-completo-ConColor.png>
 Package pdftex.def Info: images//grafo-10-completo-ConColor.png  used on input 
@@ -805,26 +812,39 @@ line 13.
 )
 LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
- [8 <./images//6nodos-pageRank-sinColor.png>] (conclusion.tex) (trabajo-futuro.
-tex
+ [8 <./images//6nodos-pageRank-sinColor-masTabla.png> <./images//BandaLCDs1.png
+>] (conclusion.tex)
+(trabajo-futuro.tex
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
- [9 <./images//grafo-10-completo-ConColor.png>]) (paper-swahler-cacic2022.bbl)
+ [9 <./images//grafo-10-completo-ConColor.png>])
+(paper-swahler-cacic2022.bbl
+Underfull \hbox (badness 4713) in paragraph at lines 41--43
+[]\OT1/cmr/m/n/9 Jornada, D.: Ca-so de es-tu-dio real. $\OT1/cmtt/m/n/9 https :
+ / / www . diariojornada . com . ar /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+\OT1/cmtt/m/n/9 57375 / policiales / Como _ era _ el _ trabajo _ de _ la _ band
+a _ de _ los _ LCD _ que _ fue _
+ []
+
+)
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
- [10]
-(paper-swahler-cacic2022.aux
+ [10] (paper-swahler-cacic2022.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 ) ) 
 Here is how much of TeX's memory you used:
- 15897 strings out of 478582
- 323190 string characters out of 2843400
- 596429 words of memory out of 3000000
- 33718 multiletter control sequences out of 15000+600000
+ 15906 strings out of 478582
+ 323483 string characters out of 2843400
+ 595434 words of memory out of 3000000
+ 33726 multiletter control sequences out of 15000+600000
  477393 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,94p,2282b,363s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,9n,94p,2282b,363s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/
@@ -844,9 +864,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/s
 wahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><
 C:/Users/swahler/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mtt9.pfb>
-Output written on paper-swahler-cacic2022.pdf (10 pages, 789966 bytes).
+Output written on paper-swahler-cacic2022.pdf (10 pages, 1193913 bytes).
 PDF statistics:
  125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
